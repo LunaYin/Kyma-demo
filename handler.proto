@@ -3,11 +3,11 @@ import "google/api/annotations.proto";
 package demo;
 
 message InputNumber {
-    string Number = 1;
+    string Input = 1;
 }
 
 message OutputResult {
-    string Result = 1;
+    string Output = 1;
 }
 service InputIncrease {
     rpc IncreaseInput (InputNumber) returns (OutputResult) {
